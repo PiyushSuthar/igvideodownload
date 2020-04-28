@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IG Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav><a href="/igdownloader">Download Image</a></nav>
+    </header>
+    <div class="main-cont">
+            <div id="error">
+            </div>
+            <div class="input-container">
+                <input placeholder="Video Link" id="input" type="url">
+                <button onclick="get()">Get</button>
+            </div>
+            <div id="vid-parent" class="video">
+                <video id="video" src=""  controls></video>
+            </div>
+            <a href="#" id="link" download>download</a>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
